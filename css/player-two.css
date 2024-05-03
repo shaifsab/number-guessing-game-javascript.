@@ -1,0 +1,69 @@
+/* player two */
+.player-two {
+    width: 450px;
+    height: 450px;
+    border-radius: 26px;
+    background: #F7F7F7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    display: none;
+}
+
+.player-two--heading {
+    font-family: var(--font);
+    color: var(--color);
+    font-size: 32px;
+    font-weight: 600;
+    margin: 31px 0 0px 0;
+}
+
+.player-two--error {
+    font-family: 'Mukti', sans-serif;
+    color: var(--color);
+    font-size: 12px;
+    font-weight: 600;
+    margin: 17px 0 12px 0;
+}
+
+.player-two--input {
+    width: 361px;
+    height: 115px;
+    background: var(--bg-color);
+    font-family: 'Mukti', sans-serif;
+    border-radius: 17px;
+    border: none;
+    outline: none;
+    text-align: center;
+    color: var(--color);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.player-two--button {
+    font-family: var(--font);
+
+    width: 361px;
+    height: 48px;
+    background: var(--bg-color);
+    border-radius: 17px;
+    color: var(--color);
+    font-size: 25px;
+    font-weight: 600;
+    border: none;
+    margin-top: 18px;
+}
+
+.player-two--button:active {
+    background: #ffb82bb3;
+}
+
+.player-two--attemps {
+    font-family: var(--font);
+    color: var(--color);
+    font-size: 12px;
+    font-weight: 600;
+    margin: 37px 0 23px 0;
+}
+
+/* player one end */

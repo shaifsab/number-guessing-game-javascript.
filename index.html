@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Guessing Game</title>
+    <link rel="icon" href="assets/icon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/player-one.css">
+    <link rel="stylesheet" href="css/player-two.css">
+    <link rel="stylesheet" href="css/player-three.css">
+    <link rel="stylesheet" href="css/victory-page.css">
+</head>
+
+<body>
+
+    <!-- player one -->
+    <div class="player-one">
+        <h1 class="player-one--heading">Player One</h1>
+        <p class="player-one--error"></p>
+        <input class="player-one--input" type="text" placeholder="আপনার পছন্দের নাম্বারটি পুট দিন ">
+        <button class="player-one--button">Go</button>
+    </div>
+
+    <!-- player two -->
+    <div class="player-two">
+        <h1 class="player-two--heading">Player Two</h1>
+        <p class="player-two--error"></p>
+        <input class="player-two--input" type="text" placeholder="গেস নাম্বারাটি পুট করুন">
+        <button class="player-two--button">Guess</button>
+        <p class="player-two--attemps"></p>
+    </div>
+
+    <!-- player three -->
+    <div class="player-three">
+        <h1 class="player-three--heading">Player Three</h1>
+        <p class="player-three--error"></p>
+        <input class="player-three--input" type="text" placeholder="গেস নাম্বারাটি পুট করুন">
+        <button class="player-three--button">Guess</button>
+        <p class="player-three--attemps"></p>
+    </div>
+
+    <!-- victory -->
+    <div class="card">
+        <canvas class="confetti" id="canvas"></canvas>
+        <h1 class="winner-heading"></h1>
+        <p class="winner-name"></p>
+        <img src="assets/victory.png" alt="img">
+    </div>
+
+
+    <script src="js/script.js"></script>
+    <script src="js/confetti.js"></script>
+</body>
+
+</html>
